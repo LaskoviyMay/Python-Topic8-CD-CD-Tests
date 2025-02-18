@@ -30,4 +30,4 @@ jobs:
       # Шаг 3: Запуск тестов
       - name: Run tests
         run: |
-          python -m unittest discover -p "test_*.py"  # Запуск всех тестов в папке tests/
+          python -m unittest discover -s "tests" -p "test_*.py"  # Запуск всех тестов в папке tests/
