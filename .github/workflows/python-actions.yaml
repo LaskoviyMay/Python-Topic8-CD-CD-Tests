@@ -1,5 +1,4 @@
 name: Run Tests  # Название workflow
-run: cd $GITHUB_WORKSPACE
 
 # События, которые запускают этот workflow
 on:
