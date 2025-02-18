@@ -31,4 +31,4 @@ jobs:
       # Шаг 3: Запуск тестов
       - name: Run tests
         run: |
-          pytest test_incorrect.py
+          pytest test_current.py
